@@ -67,6 +67,52 @@ function render() {
   $('bar').innerHTML = '';
   addBtn('📄 บันทึกเป็น PDF', () => window.print()); // พิมพ์ A4 (CSS @media print) แล้วเลือก "บันทึกเป็น PDF"; ได้เฉพาะการ์ดที่กรอง/เรียงอยู่
   if (!ADMIN) return;
+  function render() {
+  $('ttl').textContent = D.meta.title; $('sub').textContent = D.meta.subtitle;
+  document.title = D.meta.title;
+  drawChips(); drawGrid();
+  $('bar').innerHTML = '';
+  addBtn('📄 บันทึกเป็น PDF', () => window.print()); 
+  
+  if (!ADMIN) return;
+  // --- ส่วนที่มีอยู่เดิม ---
+  addBtn(editing ? '✏️ ปิดโหมดแก้ไข' : '✏️ โหมดแก้ไข', () => { editing = !editing; render(); }, editing);
+  if (editing) { addBtn('+ การ์ดใหม่', () => openEditor(-1)); addBtn('⬇ ส่งออก data.json', exportJSON); 
+  /* ... โค้ดปุ่มนำเข้าที่มีอยู่เดิม ... */ }
+
+
+  // === 🌟 เพิ่มโค้ดส่วนนี้เพื่อให้แก้ไขหัวข้อได้ ===
+  if (editing) {
+    // แก้ไข Title (ชื่อวิชา)
+    $('ttl').title = 'คลิกเพื่อแก้ไขชื่อวิชา';
+    $('ttl').style.cursor = 'pointer';
+    $('ttl').style.textDecoration = 'underline dashed #ccc'; // ทำเส้นใต้ปะให้รู้ว่าคลิกได้
+    $('ttl').onclick = () => {
+      const newTitle = prompt('แก้ไขชื่อวิชา (Title):', D.meta.title);
+      if (newTitle !== null && newTitle.trim() !== '') {
+        D.meta.title = newTitle.trim();
+        save(); // บันทึกลง localStorage แล้ว render ใหม่
+      }
+    };
+
+    // แก้ไข Subtitle (คำอธิบาย)
+    $('sub').title = 'คลิกเพื่อแก้ไขคำอธิบาย';
+    $('sub').style.cursor = 'pointer';
+    $('sub').style.textDecoration = 'underline dashed #ccc';
+    $('sub').onclick = () => {
+      const newSub = prompt('แก้ไขคำอธิบาย (Subtitle):', D.meta.subtitle);
+      if (newSub !== null) {
+        D.meta.subtitle = newSub.trim();
+        save(); 
+      }
+    };
+  } else {
+    // ปิดโหมดแก้ไขให้ยกเลิกการคลิก
+    $('ttl').style = ''; $('ttl').onclick = null; $('ttl').title = '';
+    $('sub').style = ''; $('sub').onclick = null; $('sub').title = '';
+  }
+  // ===========================================
+}
   addBtn(editing ? '✏️ ปิดโหมดแก้ไข' : '✏️ โหมดแก้ไข', () => { editing = !editing; render(); }, editing);
   if (editing) { addBtn('+ การ์ดใหม่', () => openEditor(-1)); addBtn('⬇ ส่งออก data.json', exportJSON);
     addBtn('⬆ นำเข้า', pick); addBtn('↺ ล้างฉบับร่าง', () => { if (confirm('ล้างการแก้ไขในเบราว์เซอร์นี้?')) { localStorage.removeItem(KEY); location.reload(); } }); }

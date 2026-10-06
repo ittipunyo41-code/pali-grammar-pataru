@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "title": "สรุปพระวินัยเรียนในห้อง(ฉบับสังเขป)/Wolonggang\n                Mountain",
+  "subtitle": "สรุปมาติกา อุโปสถ สีมา ปาราชิก สังฆาทิเสส\n                จีวร สังฆกรรม และคาถาปริภาษา",
+  "version": 2
+ },
+ "cards": [
+  {
+   "id": "c01",
+   "title": "อำนาจประโยชน์ ๑๐ ประการ",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "อำนาจประโยชน์ ๑๐ ประการ"
+    },
+    {
+     "type": "html",
+     "html": "<p style=\"text-align: left; line-height: 1.6; margin: 0;\"> <strong>๑. รับ</strong> สงฺฆสุฏฺฐุตาย, <strong>๒. ผาสุก</strong> สงฺฆผาสุตาย, <strong>๓. ข่ม</strong> ทุมฺมงฺกูนํ ปุคฺคลานํ นิคฺคหาย, <strong>๔. ผาสุก</strong> เปสลานํ ภิกฺขูนํ ผาสุวิหาราย, <strong>๕. ปิดกั้น</strong> ทิฏฺฐธมฺมิกานํ อาสวานํ สํวราย, <strong>๖. ป้องกัน</strong> สมฺปรายิกานํ อาสวานํ ปฏิฆาตาย, <strong>๗. เลื่อมใส</strong> อปฺปสนฺนานํ ปสาทาย, <strong>๘. เลื่อมใส</strong> ปสนฺนานํ ภิยฺโยภาวาย, <strong>๙. ธรรม</strong> สทฺธมฺมฏฺฐิติยา, <strong>๑๐. วินัย</strong> วินยานุคฺคหาย. </p>"
+    }
+   ],
+   "tags": [
+    "ทั่วไป"
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "อธิกรณ์ ๔",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "อธิกรณ์ ๔"
+    },
+    {
+     "type": "items",
+     "wrap": "ul",
+     "items": [
+      {
+       "html": "<strong class=\"item-title\" style=\"text-align: left;\">๑. วิ-วิทาธิกรณ์</strong> <div class=\"pill-row\"> <span class=\"pill\">สัม,เย</span> <span class=\"pill\">ด่า</span> <span class=\"pill\">ปา,ทุก</span> </div>",
+       "li": true,
+       "style": "text-align: left;"
+      },
+      {
+       "html": "<strong class=\"item-title\" style=\"text-align: left;\">๒. นุ-อนุวาธาธิกรณ์</strong> <div class=\"pill-row\"> <span class=\"pill\">สัม,ติ,มูห,ตัส</span> <span class=\"pill\">จัด</span> <span class=\"pill\">สํ,ปา,ทุก</span> </div>",
+       "li": true,
+       "style": "text-align: left;"
+      },
+      {
+       "html": "<strong class=\"item-title\" style=\"text-align: left;\">๓. บัติ-อาปัตตาธิกรณ์</strong> <div class=\"pill-row\"> <span class=\"pill\">สัม,ญา,ติณ</span> <span class=\"pill\">ปิด</span> <span class=\"pill\">ซิก,ถุล,ปา,ทุก</span> </div>",
+       "li": true,
+       "style": "text-align: left;"
+      },
+      {
+       "html": "<strong class=\"item-title\" style=\"text-align: left;\">๔. กิจ-กิจจาธิกรณ์</strong> <div class=\"pill-row\"> <span class=\"pill\">สัม</span> <span class=\"pill\">ภาส</span> <span class=\"pill\">ซิก,สํ,ถุล,ปา,ทุก</span> </div>",
+       "li": true,
+       "style": "text-align: left;"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "อธิกรณ์"
+   ]
+  }
+ ]
+}

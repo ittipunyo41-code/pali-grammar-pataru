@@ -1,0 +1,328 @@
+{
+ "meta": {
+  "title": "สรุปพระวินัยเรียนในห้อง(ฉบับสังเขป)/Wolonggang\n                Mountain",
+  "subtitle": "สรุปมาติกา อุโปสถ สีมา ปาราชิก สังฆาทิเสส\n                จีวร สังฆกรรม และคาถาปริภาษา",
+  "version": 2
+ },
+ "cards": [
+  {
+   "id": "c1791177290569",
+   "title": "ปทรูปสิทธิ ๗ กัณฑ์",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h2",
+     "html": "ปทรูปสิทธิประกอบด้วย ๗ กัณฑ์ คือ"
+    },
+    {
+     "type": "items",
+     "wrap": "div",
+     "items": [
+      {
+       "html": "1.สนธิกัณฑ์"
+      },
+      {
+       "html": "2.นามกัณฑ์"
+      },
+      {
+       "html": "3.การกกัณฑ์"
+      },
+      {
+       "html": "4.สมาสกัณฑ์"
+      },
+      {
+       "html": "5.ตัทธิตกัณฑ์"
+      },
+      {
+       "html": "6.อาขยาตกัณฑ์"
+      },
+      {
+       "html": "7.กิพพิธานกัณฑ์"
+      }
+     ]
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791178090818",
+   "title": "สนธิกัณฑ์",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h2",
+     "html": "สนธิ มี ๔ ประเภท คือ"
+    },
+    {
+     "type": "items",
+     "wrap": "div",
+     "items": [
+      {
+       "html": "(๑) สรสนธิ - “สรานํ สนฺธิ สรสนฺธิ”"
+      },
+      {
+       "html": "(๒) ปกติสนธิวิธาน"
+      },
+      {
+       "html": "(๓) พยัญชนสนธิวิธาน - “พฺยญฺชนานํ สนฺธิ พฺยญฺชนสนฺธิ”"
+      },
+      {
+       "html": "(๔) นิคหิตสนธิวิธาน"
+      },
+      {
+       "html": "-"
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": "h2",
+     "html": "ประเภทของสนธิ ๘ ประการ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n     <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 6px;\"><strong>โลป</strong> การลบ</li>\n        <li style=\"margin-bottom: 6px;\"><strong>อาเทส</strong> การแปลงอักษร</li>\n        <li style=\"margin-bottom: 6px;\"><strong>อาคม</strong> การลงอักษรใหม่</li>\n        <li style=\"margin-bottom: 6px;\"><strong>วิการ</strong> การเปลี่ยนแปลง การกลับหน้ากลับหลัง (วิปรีตะ หรือวิปริยยะ)</li>\n        <li style=\"margin-bottom: 6px;\"><strong>ปกติ</strong> การคงอักษรไว้ตามเดิม</li>\n        <li style=\"margin-bottom: 6px;\"><strong>ทีฆ</strong> การทำสระเสียงสั้นให้เป็นสระเสียงยาว</li>\n        <li style=\"margin-bottom: 6px;\"><strong>รสฺส</strong> การทำสระเสียงยาวให้เป็นสระเสียงสั้น</li>\n        <li style=\"margin-bottom: 6px;\"><strong>สญฺโญค</strong> การซ้อนพยัญชนะ หรือการเทฺวภาวะ</li>\n    </ol>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791179408623",
+   "title": "นามกัณฑ์",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h2",
+     "html": "อักษรบาลี ๔๑ ตัว"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <p style=\"margin-bottom: 8px;\">อักษรบาลีนั้น มี ๔๑ ตัว คือ:</p>\n    <div style=\"margin-bottom: 8px; padding-left: 10px;\">\n        <strong>สระ (๘ ตัว):</strong> อ อา อิ อี อุ อู เอ โอ\n    </div>\n    <div style=\"padding-left: 10px;\">\n        <strong>พยัญชนะ (๓๓ ตัว):</strong>\n        <div style=\"margin-top: 4px; line-height: 1.8;\">\n            ก ข ค ฆ ง<br>\n            จ ฉ ช ฌ ญ<br>\n            ฏ ฐ ฑ ฒ ณ<br>\n            ต ถ ท ธ น<br>\n            ป ผ พ ภ ม<br>\n            ย ร ล ว ส ห ฬ อ\n        </div>\n    </div>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "หลักการตั้งชื่อ (นาม) ๓ ประการ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 6px;\">อาทิลทฺธนาม</li>\n        <li style=\"margin-bottom: 6px;\">อนฺตลทฺธนาม</li>\n        <li style=\"margin-bottom: 6px;\">สพฺพลทฺธนาม</li>\n    </ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "ลักษณะของสูตร ๖ ประการ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n<ol style=\"padding-left: 20px; margin: 0;\">\n<li style=\"margin-bottom: 6px;\">สัญญาสุตฺต</li>\n<li style=\"margin-bottom: 6px;\">ปริภาสาสุตฺต</li>\n<li style=\"margin-bottom: 6px;\">วิธิสุตฺต</li>\n<li style=\"margin-bottom: 6px;\">นิยมสุตฺต</li>\n<li style=\"margin-bottom: 6px;\">อติเทสสุตฺต</li>\n<li style=\"margin-bottom: 6px;\">อธิการสุตฺต</li>\n</ol>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791180200379",
+   "title": "สนธิกัณฑ์",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h2",
+     "html": "สนธิกัณฑ์"
+    },
+    {
+     "type": "items",
+     "wrap": "div",
+     "items": [
+      {
+       "html": "วิธิสูตรมี ๘ ประการ"
+      }
+     ]
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n<ol style=\"padding-left: 20px; margin: 0;\">\n<li style=\"margin-bottom: 6px;\">โลปวิธิ</li>\n<li style=\"margin-bottom: 6px;\">อาเทสวิธิ</li>\n<li style=\"margin-bottom: 6px;\">อาคมวิธิ</li>\n<li style=\"margin-bottom: 6px;\">ทีฆวิธิ</li>\n<li style=\"margin-bottom: 6px;\">รัสสวิธิ</li>\n<li style=\"margin-bottom: 6px;\">นิเสธวิธิ</li>\n<li style=\"margin-bottom: 6px;\">วิภัตติวิธิ</li>\n<li style=\"margin-bottom: 6px;\">ปัจจยวิธิ</li>\n</ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "วาศัพท์ที่มีอรรถ ววตฺถิตวิภาสา"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n   <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\"><strong>นิจฺจวิธิ</strong> วิธีที่แน่นอน</li>\n        <li style=\"margin-bottom: 8px;\"><strong>อนิจฺจวิธิ</strong> วิธีที่ไม่แน่นอน</li>\n        <li style=\"margin-bottom: 8px;\"><strong>อสนฺตวิธิ</strong> วิธีที่ไม่มีในสูตร</li>\n    </ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "อธิการนย : นัยแห่งการตามไป มี ๓ ประการ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">สีหคติกอธิการนัย</li>\n        <li style=\"margin-bottom: 8px;\">มณฺฑูกคติกอธิการนัย</li>\n        <li style=\"margin-bottom: 8px;\">นทีโสตคติกอธิการนัย</li>\n    </ol>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791180200380",
+   "title": "สนธิกัณฑ์ (ต่อ ๑)",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "จ ศัพท์ : มีอรรถ ๕ อย่าง"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">อนุกฑฺฒนตฺถ</li>\n        <li style=\"margin-bottom: 8px;\">สมฺปิณฺฑณตฺถ</li>\n        <li style=\"margin-bottom: 8px;\">สมุจฺจยตฺถ</li>\n        <li style=\"margin-bottom: 8px;\">อวธารณตฺถ</li>\n        <li style=\"margin-bottom: 8px;\">วาจาสิลิฏฺฐตฺถ</li>\n    </ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "ปกติรูป มีได้ใน ๓ ฐานะ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">ฉนฺทเภทฏฺฐาน</li>\n        <li style=\"margin-bottom: 8px;\">อสุขุจฺจารณฏฺฐาน</li>\n        <li style=\"margin-bottom: 8px;\">สนฺธิจฺฉารหิตฏฺฐาน</li>\n    </ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "การทำทีฆะ มี ๒ ฐานะ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">สุตฺตสุขุจฺจารณฏฺฐาน</li>\n        <li style=\"margin-bottom: 8px;\">ฉนฺทานุรกฺขณฏฺฐาน</li>\n    </ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "การทำรัสสะ มี ๓ ฐานะ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">ฉนฺทานุรกฺขณฏฺฐาน</li>\n        <li style=\"margin-bottom: 8px;\">อาคมฏฺฐาน</li>\n        <li style=\"margin-bottom: 8px;\">สํโยคฏฺฐาน</li>\n    </ol>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791183755852",
+   "title": "เทฺวภาว",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "ฐานะในการทำเทฺวภาวะ มี ๙ ฐาน"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">รสฺสาการโต</li>\n        <li style=\"margin-bottom: 8px;\">ติก-ตย-ตึส-วตาทีนมาทิ จ.</li>\n        <li style=\"margin-bottom: 8px;\">วตุ-วฏุ-ทิสาทีนมนฺตญฺจ.</li>\n        <li style=\"margin-bottom: 8px;\">อุ-ทุ-นิอุปสคฺค-ต-จตุ-ฉ-สนฺตสทฺทาเทสาทิปรญฺจ.</li>\n        <li style=\"margin-bottom: 8px;\">อปทนฺตานาการทีฆโต ยการาทิ จ.</li>\n        <li style=\"margin-bottom: 8px;\">ยวตํ ตลนาทีน- มาเทโส จ สยาทินํ สหธาตฺวนฺตยาเทโส สีสกาโร ตปาทิโต.</li>\n        <li style=\"margin-bottom: 8px;\">ฉนฺทานุรกฺขเณ จ.</li>\n        <li style=\"margin-bottom: 8px;\">ฆร-เฌ-ธํสุ-ภมาทีนมาทิ จ.</li>\n        <li style=\"margin-bottom: 8px;\">รสฺสาการโต วคฺคานํ จตุตฺถทุติยา จ.</li>\n    </ol>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791183755853",
+   "title": "โยควิภาค และ อติเทสสูตร",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "โยควิภาค : การแบ่งสูตรมี ๓ แบบ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">วินาธิการโยควิภาค</li>\n        <li style=\"margin-bottom: 8px;\">ทฺวิธากรณโยควิภาค</li>\n        <li style=\"margin-bottom: 8px;\">วิสุํกรณโยควิภาค</li>\n    </ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "การลบนิคหิตทำได้ใน ๒ ฐานะ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">ฉนฺทานุรกฺขณฏฺฐาน</li>\n        <li style=\"margin-bottom: 8px;\">สุขุจฺจารณฏฺฐาน</li>\n    </ol>\n</div>"
+    },
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "อติเทสสูตร คือสูตรที่ชี้แจง มี ๖ ประเภท"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 8px;\">พฺยปเทสาติเทสสุตฺต</li>\n        <li style=\"margin-bottom: 8px;\">นิมิตฺตาติเทสสุตฺต</li>\n        <li style=\"margin-bottom: 8px;\">ตํรูปาติเทสสุตฺต</li>\n        <li style=\"margin-bottom: 8px;\">ตํสภาวาติเทสสุตฺต</li>\n        <li style=\"margin-bottom: 8px;\">สุตฺตาติเทสสุตฺต</li>\n        <li style=\"margin-bottom: 8px;\">การิยาติเทสสุตฺต</li>\n    </ol>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791185772282",
+   "title": "นามกัณฑ์",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h2",
+     "html": "นามกัณฑ์"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n<p style=\"margin: 0; margin-bottom: 8px;\">อตฺถํ นมตีติ นามํ. ย่อมน้อมไปสู่ความหมาย เพราะเหตุนั้น จึงชื่อว่านาม</p>\n<p style=\"margin: 0;\">อตฺตนิ อตฺถํ นาเมตีติ นามํ. ย่อมยังความหมายให้น้อมมาในตน เพราะเหตุนั้น จึงชื่อว่านาม</p>\n</div>"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ol style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 12px;\">\n            นามมี ๒ ประเภท คือ\n            <ol type=\"ก\" style=\"padding-left: 20px; margin-top: 4px;\">\n                <li style=\"margin-bottom: 4px;\"><strong>อนฺวตฺถนาม</strong> คือนามที่เป็นไปตามอรรถ หรือตามความเป็นจริง</li>\n                <li style=\"margin-bottom: 4px;\"><strong>รุฬฺหีนาม</strong> คือนามที่ตั้งขึ้นมาสำหรับเรียกขานเท่านั้น โดยไม่คำนึงถึงความหมาย</li>\n            </ol>\n        </li>\n        <li style=\"margin-bottom: 12px;\">\n            นามมี ๓ ประเภท คือ\n            <ol type=\"ก\" style=\"padding-left: 20px; margin-top: 4px;\">\n                <li style=\"margin-bottom: 4px;\"><strong>ปุลฺลิงฺคนาม</strong></li>\n                <li style=\"margin-bottom: 4px;\"><strong>อิตฺถิลิงฺคนาม</strong></li>\n                <li style=\"margin-bottom: 4px;\"><strong>นปุงฺสกลิงฺคนาม</strong></li>\n            </ol>\n        </li>\n    </ol>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791185772283",
+   "title": "นามกัณฑ์ (ต่อ ๑)",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "3. นามมี ๓ ประเภท คือ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ul start=\"3\" style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 12px;\">\n            <ol style=\"list-style-type: decimal; padding-left: 20px; margin-top: 4px;\">\n                <li style=\"margin-bottom: 8px;\">\n                    <strong>สุทฺธนาม หรือนามนาม</strong> คือนามที่ล้วน ๆ ที่ใช้เป็นประธานของประโยค มี ๒ อย่าง คือ\n                    <ol type=\"ก\" style=\"padding-left: 20px; margin-top: 4px;\">\n                        <li style=\"margin-bottom: 4px;\"><strong>สาธารณนาม</strong> นามทั่วไปไม่เจาะจง เช่น นครํ เมือง</li>\n                        <li style=\"margin-bottom: 4px;\"><strong>อสาธารณนาม</strong> นามที่ไม่ทั่วไป</li>\n                    </ol>\n                </li>\n                <li style=\"margin-bottom: 8px;\">\n                    <strong>คุณนาม</strong> นามที่แสดงลักษณะพิเศษของสุทธนามหรือนามนามว่าดีหรือชั่ว\n                    <ol style=\"list-style-type: decimal; padding-left: 20px; margin-top: 4px;\">\n                        <li style=\"margin-bottom: 4px;\">ชั้นปกติ เช่น ปาโป ผู้ชั่ว</li>\n                        <li style=\"margin-bottom: 4px;\">ชั้นวิเศษ เช่น ปาปตโร, ปาปิโย, ปาปิสิโก ผู้ชั่วกว่า</li>\n                        <li style=\"margin-bottom: 4px;\">ชั้นอติวิเศษ เช่น ปาปตโม, ปาปิฏฺโฐ ผู้ชั่วที่สุด</li>\n                    </ol>\n                </li>\n                <li style=\"margin-bottom: 8px;\">\n                    <strong>สพฺพนาม</strong> นามที่ใช้แทนชื่อคน สัตว์ สิ่งของที่กล่าวมาแล้ว มี ๒ อย่าง คือ\n                    <ol type=\"ก\" style=\"padding-left: 20px; margin-top: 4px;\">\n                        <li style=\"margin-bottom: 6px;\">\n                            <strong>ปุริสสพฺพนาม</strong> นามที่ใช้เป็นประธานในประโยคได้ มี ๓ บุรุษ คือ\n                            <ol style=\"list-style-type: decimal; padding-left: 20px; margin-top: 4px;\">\n                                <li style=\"margin-bottom: 2px;\">ปฐมบุรุษ</li>\n                                <li style=\"margin-bottom: 2px;\">มัชฌิมบุรุษ</li>\n                                <li style=\"margin-bottom: 2px;\">อุตตมบุรุษ</li>\n                            </ol>\n                        </li>\n                        <li style=\"margin-bottom: 4px;\">\n                            <strong>วิเสสนสพฺพนาม</strong> สัพพนามที่ทำหน้าที่เป็นตัวขยายสุทธนาม มี ๒๕ ตัว คือ สพฺพ, กตร, กตม, อุภย, อิตร, อญฺญ, อญฺญตร, อญฺญตม, ปุพฺพ, ปร, อปร, ทกฺขิณ, อุตฺตร, อธร, ย, ต, เอต, อิม, อมุ, กึ, เอก, อุภ, ทฺวิ, ติ และ จตุศัพท์.\n                        </li>\n                    </ol>\n                </li>\n            </ol>\n        </li>\n    </ul>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791185772284",
+   "title": "นามกัณฑ์ (ต่อ ๒)",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h3",
+     "html": "4. นามมี ๔ ประเภท คือ"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; line-height: 1.6; color: #333; padding: 10px;\">\n    <ul start=\"4\" style=\"padding-left: 20px; margin: 0;\">\n        <li style=\"margin-bottom: 12px;\">\n            <ol type=\"ก\" style=\"padding-left: 20px; margin-top: 4px;\">\n                <li style=\"margin-bottom: 4px;\">สามญฺญนาม</li>\n                <li style=\"margin-bottom: 4px;\">คุณนาม</li>\n                <li style=\"margin-bottom: 4px;\">กิริยานาม</li>\n                <li style=\"margin-bottom: 4px;\">ยทิจฺฉานาม</li>\n            </ol>\n        </li>\n    </ul>\n</div>"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "id": "c1791192788546",
+   "title": "การ์ดใหม่",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": "h2",
+     "html": "วิภัตตินาม"
+    },
+    {
+     "type": "html",
+     "html": "<div style=\"font-family: sans-serif; width: 100%; box-sizing: border-box; overflow-x: auto;\">\n    <table style=\"width: 100%; border-collapse: collapse; border: 1px solid #ccc; font-size: 9.5px; background: #fff; table-layout: auto;\">\n        <thead>\n            <tr style=\"background-color: #f2f2f2; text-align: center;\">\n                <th style=\"border: 1px solid #ccc; padding: 4px;\">อรรถกถา</th>\n                <th style=\"border: 1px solid #ccc; padding: 4px;\">เอกวจนะ</th>\n                <th style=\"border: 1px solid #ccc; padding: 4px;\">พหุวจนะ</th>\n                <th style=\"border: 1px solid #ccc; padding: 4px;\">อายตนิบาต (คำแปลซึ่งเป็นคำเชื่อมต่อศัพท์)</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">ปจฺจตฺต</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">สิ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">โย</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">อันว่า..... (อ.), อันว่า.....ทั้งหลาย (อ. ...... ท.)</td>\n            </tr>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">อาลปน</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">สิ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">โย</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">แน่ะ, ดูก่อน, ข้าแต่</td>\n            </tr>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">อุปโยค</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">งํ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">โย</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">ซึ่ง, สู่, ยัง, สิ้น, ตลอด, กะ, เฉพาะ</td>\n            </tr>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">กรณ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">นา</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">หิ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">ด้วย, โดย, อัน, ตาม, (ข้าง, ทาง), เพราะ, มี, ด้วยทั้ง</td>\n            </tr>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">สมฺปทาน</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">ส</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">นํ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">แก่, เพื่อ, ต่อ</td>\n            </tr>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">นิสฺสกฺก</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">สฺมา</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">หิ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">แต่, จาก, กว่า, เหตุ, เพราะ</td>\n            </tr>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">สามี</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">ส</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">นํ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">แห่ง, ของ, เมื่อ</td>\n            </tr>\n            <tr>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">ภุมฺม</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">สฺมึ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px; text-align: center;\">สุ</td>\n                <td style=\"border: 1px solid #ccc; padding: 4px;\">ใน, ใกล้, ที่, ครั้นเมื่อ, ในเพราะ, เหนือ, บน, ณ</td>\n            </tr>\n        </tbody>\n    </table>\n</div>"
+    }
+   ],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin - สรุปพระวินัย</title>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!--
+=====================================================================
+หมายเหตุสำหรับผู้ตรวจ/AI (อ่านส่วนนี้ก่อน ไม่ต้องขอไฟล์ data.json)
+=====================================================================
+โปรเจกต์: หน้าสรุปพระวินัย (การ์ดแบบ masonry พิมพ์ A4 ได้)
+ไฟล์: index.html (หน้าผู้อ่าน) | admin.html (หน้าแก้ไข ADMIN=true) | app.js (ตัว render + ตัวแก้ไข ใช้ร่วมกัน) | style.css | data.json (เนื้อหา ~100KB)
+หลักการ: เนื้อหาอยู่ใน data.json เท่านั้น index.html ไม่มีเนื้อหาวินัย
+
+--- โครงสร้าง data.json ---
+{ "meta": {"title","subtitle","version"},
+  "cards": [ {"id":"c01","title":"ชื่อการ์ด (ใช้เรียงตามชื่อ)","tags":["ปาราชิก","..."],"blocks":[ ...block ]} ] }
+tags = รายการแท็กของการ์ด (ไม่บังคับ) ใช้กรอง/เรียง; แท็กแรกคือแท็กหลักที่ใช้เรียงตามแท็ก
+
+--- ชนิด block (field "type") ---
+heading : {level:"h2"|"h3", html, style?}        -> <h2>/<h3> (h2 = หัวการ์ด)
+items   : {wrap:"div"|"ul", items:[{html, li?, cls?, style?}], style?}
+          -> <div|ul class="vertical-list"> ; แต่ละรายการเป็น <div class="vertical-item"> หรือ <li>
+          รูปแบบทั่วไปของ html: "<b>คำย่อ</b> - คำเต็ม"
+pills   : {items:["text",..], style?}            -> <div class="pill-row"><span class="pill">
+verse   : {html, style?}                         -> <div class="verse"> (บาลี/หมายเหตุ)
+html    : {html}                                 -> HTML ดิบ ใช้กับเลย์เอาต์ซับซ้อน (flex, table, การ์ดซ้อน, grid-mini, two-cols)
+(ค่า html ในทุก block ถูกใส่ด้วย innerHTML = เชื่อถือข้อมูลของตนเอง)
+
+--- คลาส CSS ที่ใช้ใน html ได้ (อยู่ใน style.css) ---
+text-blue, text-red, flex-between, highlight-box, two-cols, grid-mini, vertical-item, pill, verse, v-item(vinicchaya-list)
+
+--- ฟังก์ชันใน app.js (ไฟล์นี้เป็นหน้าสำหรับผู้อ่าน: ADMIN=false ไม่มีปุ่มแก้ไข ไม่อ่านฉบับร่าง) ---
+load()      โหลดข้อมูล: localStorage("vinaya-data") ก่อน แล้ว fetch data.json; ถ้า fetch ล้มเหลว (เปิดด้วย file://) จะแสดงปุ่มเลือกไฟล์
+render()    วาดหัวเรื่อง + การ์ด + แถบเครื่องมือ
+blockHTML(b) แปลง block เป็น HTML ตามชนิด  <-- ถ้าจะเพิ่มชนิดใหม่ ให้เพิ่ม case ตรงนี้ + toText/fromText + ตัวเลือกใน TYPES
+openEditor(i) หน้าต่างแก้ไขการ์ด (i = -1 คือสร้างใหม่)
+toText/fromText แปลง block <-> ข้อความในช่องแก้ไข (items/pills = 1 บรรทัด 1 รายการ;
+          พิมพ์ "คำย่อ | คำเต็ม" (ไม่มี <) จะถูกแปลงเป็น <b>คำย่อ</b> - คำเต็ม อัตโนมัติ)
+S, view()  สถานะค้นหา/เรียง/กรอง (S.q, S.sort = orig|name|tag, S.tag) และคืนรายการ [card, ดัชนีจริง] ที่ผ่านตัวกรองแล้ว
+drawGrid()/drawChips()/initFilters()  วาดการ์ด / ปุ่มแท็ก / ช่องค้นหา+เรียง (ปุ่ม ↑↓ แสดงเฉพาะตอนเรียง "ลำดับเดิม" และไม่กรอง)
+ปุ่ม PDF  เรียก window.print() ใช้ CSS @media print ใน style.css (A4, 3 คอลัมน์, ซ่อนแถบเครื่องมือ) ผลลัพธ์เป็น PDF แบบเวกเตอร์ ตัวอักษรคมและค้นหาได้; ใช้ชื่อไฟล์จาก <title>
+save()      บันทึกลง localStorage  |  exportJSON()/importJSON() ส่งออก/นำเข้า data.json
+
+--- ข้อควรระวัง ---
+1) การแก้ไขในหน้าเว็บเก็บใน localStorage ของเบราว์เซอร์นั้นก่อน ต้องกด "ส่งออก" แล้วนำไฟล์ไปวางทับ data.json จึงจะถาวร/ใช้ข้ามเครื่อง
+2) เปิดไฟล์ตรง ๆ (file://) fetch ไม่ได้ ให้ใช้ปุ่ม "เลือก data.json" หรือรันเซิร์ฟเวอร์ (python -m http.server) หรือโฮสต์ GitHub Pages
+3) data.json สร้างจาก index.html เวอร์ชันเดิมด้วยสคริปต์แปลงอัตโนมัติ: block ที่ซับซ้อนจึงเป็นชนิด html
+=====================================================================
+-->
+</head>
+<body>
+<div class="toolbar" id="bar"></div>
+<div class="toolbar" id="flt"></div>
+<div class="a4-page">
+  <div class="header-title" id="ttl"></div>
+  <div class="header-sub" id="sub"></div>
+  <div class="masonry" id="grid"></div>
+</div>
+<script>window.ADMIN = true;</script>
+<script src="app.js"></script>
+</body>
+</html>
